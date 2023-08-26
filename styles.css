@@ -1,0 +1,40 @@
+/* Reset some default styles for browsers */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #44aaff; /* Attractive blue color */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.feature {
+    background-color: rgb(26, 190, 182);
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #c92d95;
+    color: white;
+}
